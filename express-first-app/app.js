@@ -8,6 +8,6 @@ app.get("/app/product", (req, res) => {
     res.send("product list :")
 })
 app.listen(3000, '127.0.0.1', () => {
-
+    console.log(".")
     console.log("server is listening on 3000")
 });
