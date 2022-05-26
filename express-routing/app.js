@@ -9,6 +9,7 @@ app.use("/", (req, res, next) => {
 })
 app.use("/products", (req, res, next) => {
     res.send("<h1>Url slash karakterinden sonra products içerdiği için ben çalıştım olmasaydı default route middleware i çalışacaktı</h1>")
+    
         //res.send("<h2>Ve ben next içermiyorum o yüzden başka middleware çalışmayacak</h2>")
 })
 app.use("/files", (req, res, next) => {
