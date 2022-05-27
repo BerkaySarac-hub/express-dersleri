@@ -1,5 +1,5 @@
 const express = require('express');
-const router = express.router();
+const router = express.Router();
 
 router.post("/products", (req, res, next) => {
     res.send("you are in the products on the user");
